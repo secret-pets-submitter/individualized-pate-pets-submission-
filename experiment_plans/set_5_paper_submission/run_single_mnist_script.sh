@@ -9,7 +9,6 @@ set -x
 
 ### Params that don't changes:
 BASE_OUT_DIR=$HOME/code/data/out/
-datadrive_BASE_OUT_DIR=/datadrive1/CleverHans/individualized_pate
 CODE_DIR=$HOME/code/personalized-pate/per-point-pate
 INPUT_DATA_DIR=$HOME/code/data/inputs/
 YAML_DIR=$CODE_DIR/experiment_plans/set_6_reviewer_response/

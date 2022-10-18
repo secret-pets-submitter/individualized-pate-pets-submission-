@@ -1,6 +1,6 @@
 from pathlib import Path
 from pprint import pprint
-from per_point_pate.studies.parameters import DataParameters, ExperimentPlan, ModelParameters, PATEExperimentPlan, ResourceParameters
+from individualized_pate.studies.parameters import DataParameters, ExperimentPlan, ModelParameters, PATEExperimentPlan, ResourceParameters
 
 
 def test_experiment_plan_load():

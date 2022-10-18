@@ -1,5 +1,5 @@
 import numpy as np
-from per_point_pate.data.split_data import split_data
+from individualized_pate.data.split_data import split_data
 
 
 def test_split_data():

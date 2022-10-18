@@ -1,5 +1,5 @@
 from tkinter import W
-from per_point_pate.privacy.pate import set_duplications
+from individualized_pate.privacy.pate import set_duplications
 
 def test_set_duplications_simple_budgets():
     budgets = [1, 2, 5]

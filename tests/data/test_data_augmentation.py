@@ -1,6 +1,6 @@
 import numpy as np
 
-from per_point_pate.data.data_augmentation import get_transform
+from individualized_pate.data.data_augmentation import get_transform
 import torch
 
 def test_get_transform_mnist():

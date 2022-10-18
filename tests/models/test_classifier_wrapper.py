@@ -3,13 +3,8 @@ from pathlib import Path
 import torch
 from torch import nn
 
-from per_point_pate.models.pytorch.classifier_wrapper import ClassifierWrapper
+from individualized_pate.models.pytorch.classifier_wrapper import ClassifierWrapper
 
-def test_classfier_wrapper_load():
-    path = Path(__file__).parent / 'resources'
-    model = ClassifierWrapper.load(path)
-    assert isinstance(model, ClassifierWrapper)
-    assert isinstance(model.instance, nn.Module)
 
 def test_classifier_wrapper_evaluate():
     path = Path(__file__).parent / 'resources'

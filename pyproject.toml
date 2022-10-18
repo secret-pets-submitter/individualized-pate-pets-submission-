@@ -1,19 +1,25 @@
 [tool.poetry]
-name = "per-point-pate"
-version = "0.2.0"
+
+name = "individualized_pate"
+
+version = "1.0.0"
+
 description = "This repository provides an implementation of PATE, as well as extensions of it to enable the personalization of privacy preservation, and a framework for experimentation. The code is designed in an object-oriented manner."
+
 authors = []
+
 readme = "README.md"
-packages = [{include = "per_point_pate"}]
+
+packages = [{include = "individualized_pate"}]
+
 
 
 [tool.poetry.scripts]
-ppp-generate-prms = "per_point_pate.hprms_search:generate_prms"
-ppp-hprms-search = "per_point_pate.hprms_search:hprms_search"
-ppp-run = "per_point_pate.main:main"
-ppp-run-experiment-set = "per_point_pate.main:run_experiment_set"
 
-
+ppp-generate-prms = "individualized_pate.hprms_search:generate_prms"
+ppp-hprms-search = "individualized_pate.hprms_search:hprms_search"
+ppp-run = "individualized_pate.main:main"
+ppp-run-experiment-set = "individualized_pate.main:run_experiment_set"
 
 
 [tool.poetry.dependencies]
@@ -30,9 +36,9 @@ seaborn = "^0.11.2"
 scipy = "^1.8.1"
 loguru = "^0.6.0"
 tqdm = "^4.64.0"
+PyYAML = "^6.0"
 
 [tool.poetry.group.dev.dependencies]
-PyYAML = "^6.0"
 bpython = "^0.22.1"
 yapf = "^0.32.0"
 black = "^22.3.0"
