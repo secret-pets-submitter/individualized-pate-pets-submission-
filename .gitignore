@@ -1,2 +1,6 @@
 assets
 .ipynb_checkpoints
+__pycache__
+
+
+
